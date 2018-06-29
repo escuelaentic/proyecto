@@ -58,6 +58,19 @@ body {
     color: #fff; }
 
 .principal {
-  margin-top: 50px;
   background: #fff;
   padding-top: 20px; }
+
+.main-menu__card {
+  padding: 0; }
+
+.main-menu__button {
+  width: 100%; }
+
+.main-menu__cb {
+  padding: 0; }
+  .main-menu__cba {
+    border: 1px solid red; }
+
+.card {
+  border: none; }
