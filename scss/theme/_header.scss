@@ -1,0 +1,33 @@
+.main-header{
+    margin-top:10px;
+    
+}
+
+.main-header .nav{
+    min-height: 80px;
+    background: #fff;
+}
+.logo img{
+    height: 64px;
+    // margin: 5px 0;
+}
+
+.header-color-link{
+    // color: #fff;
+}
+.header-nav__item{
+    list-style: none;
+}
+.header-nav-list{
+    margin-bottom: 0;
+}
+
+.header-nav{
+    padding: 0;
+}
+
+.header-nav__itemd {
+    display: block;
+    background: $primary-color;
+    width: 100%;
+}
