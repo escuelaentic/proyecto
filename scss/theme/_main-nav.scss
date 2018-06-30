@@ -9,12 +9,17 @@
 
     padding: 0;
     // margin-left: 1px,     
-
+    //Sister
     &__card{
         padding: 0;       
         margin-bottom: 3px;        
     }
-    
+
+    &__link{
+        margin-bottom: 3px;        
+    }
+    //end sister
+
     &__button{
         width: 100%;        
         border: 1px solid #BABABA;
@@ -39,6 +44,12 @@
             border: 1px solid red;
         }
     }
+    
+    &__sublink{
+        text-align: left;
+        font-size: 12px;
+    }
+
 }
 
 .card{//Ojo dale una clase a este
