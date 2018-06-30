@@ -15,5 +15,17 @@
         border: 1px solid #E0E0E0;
         padding: 10px;
         margin: 5px;
-    }    
+    }  
+    
+    &__title{
+        color: #003366;
+        font-size: 18px;        
+    }
+
+    &__description{
+        color: #666666;
+        text-align: justify;
+        font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+        font-size: 12px;
+    }
 }

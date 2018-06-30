@@ -43,6 +43,14 @@ header {
     border: 1px solid #E0E0E0;
     padding: 10px;
     margin: 5px; }
+  .main-main__title {
+    color: #003366;
+    font-size: 18px; }
+  .main-main__description {
+    color: #666666;
+    text-align: justify;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+    font-size: 12px; }
 
 .accordion {
   margin: 5px 4px 5px; }
@@ -51,6 +59,8 @@ header {
   padding: 0; }
   .main-menu__card {
     padding: 0;
+    margin-bottom: 3px; }
+  .main-menu__link {
     margin-bottom: 3px; }
   .main-menu__button {
     width: 100%;
@@ -75,6 +85,9 @@ header {
     padding: 0; }
     .main-menu__cba {
       border: 1px solid red; }
+  .main-menu__sublink {
+    text-align: left;
+    font-size: 12px; }
 
 .card {
   border: none; }
