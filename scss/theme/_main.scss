@@ -1,5 +1,19 @@
 .principal{
     // margin-top: 20px;
     background: #fff;
-    padding-top: 20px;
+    // padding-top: 20px;
+}
+
+.main-main{
+
+    
+    padding-left: 0;
+    padding-right: 0;
+
+    &__article{
+        border-radius: 10px;
+        border: 1px solid #E0E0E0;
+        padding: 10px;
+        margin: 5px;
+    }    
 }

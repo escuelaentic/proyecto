@@ -1,39 +1,14 @@
 body {
   background: #f2f2f2; }
 
-.main-header {
-  margin-top: 10px; }
-
-.main-header .nav {
-  min-height: 80px;
-  background: #fff; }
-
-.logo img {
-  height: 64px; }
-
-.header-nav__item {
-  list-style: none; }
-
-.header-nav-list {
-  margin-bottom: 0; }
-
-.header-nav {
-  padding: 0; }
-
-.header-nav__itemd {
-  display: block;
-  background: #007bff;
-  width: 100%; }
+header {
+  overflow: hidden; }
 
 .main-banner-col {
   padding: 0;
   position: relative; }
   .main-banner-col::before {
     content: "";
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, black));
-    background: -webkit-linear-gradient(bottom, black 10%);
-    background: -o-linear-gradient(bottom, black 10%);
-    background: linear-gradient(to top, black 10%);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -42,8 +17,8 @@ body {
     opacity: 0.5; }
   .main-banner-col__data {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 87%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -53,24 +28,67 @@ body {
   .main-banner-col__title {
     color: #007bff;
     font-family: 'Merienda One', cursive;
-    font-size: 50px; }
+    font-size: 30px; }
   .main-banner-col__subtitle, .main-banner-col__description {
     color: #fff; }
 
 .principal {
-  background: #fff;
-  padding-top: 20px; }
+  background: #fff; }
 
-.main-menu__card {
+.main-main {
+  padding-left: 0;
+  padding-right: 0; }
+  .main-main__article {
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+    margin: 5px; }
+
+.accordion {
+  margin: 5px 4px 5px; }
+
+.main-menu {
   padding: 0; }
-
-.main-menu__button {
-  width: 100%; }
-
-.main-menu__cb {
-  padding: 0; }
-  .main-menu__cba {
-    border: 1px solid red; }
+  .main-menu__card {
+    padding: 0;
+    margin-bottom: 3px; }
+  .main-menu__button {
+    width: 100%;
+    border: 1px solid #BABABA;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), to(#A8A8A8)) no-repeat;
+    background: -webkit-linear-gradient(top, #FFFFFF 0, #A8A8A8 100%) no-repeat;
+    background: -o-linear-gradient(top, #FFFFFF 0, #A8A8A8 100%) no-repeat;
+    background: linear-gradient(top, #FFFFFF 0, #A8A8A8 100%) no-repeat;
+    height: 30px;
+    color: #003366;
+    text-align: initial;
+    line-height: 1em; }
+    .main-menu__button:hover {
+      border: 1px solid #BABABA;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #005CB8), to(#00080F)) no-repeat;
+      background: -webkit-linear-gradient(top, #005CB8 0, #00080F 100%) no-repeat;
+      background: -o-linear-gradient(top, #005CB8 0, #00080F 100%) no-repeat;
+      background: linear-gradient(top, #005CB8 0, #00080F 100%) no-repeat;
+      color: #fff;
+      text-decoration: none; }
+  .main-menu__cb {
+    padding: 0; }
+    .main-menu__cba {
+      border: 1px solid red; }
 
 .card {
   border: none; }
+
+.container {
+  -webkit-box-shadow: 1px 1px 10px grey;
+  box-shadow: 1px 1px 10px grey; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 980px; } }
+
+.main-footer {
+  background: #003366;
+  text-align: center;
+  color: #fff;
+  min-height: 50px; }
