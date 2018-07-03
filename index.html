@@ -10,7 +10,7 @@
     <title>Escuela en TIC</title>
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header fondo">
         <!-- Banner -->
         <div class="main-banner">
           <div class="container ">            
@@ -19,6 +19,7 @@
               <img class="w-100" src="img/banner.jpg" alt="Banner del sitio">
               <div class="row main-banner-col__data">
                 <div class="col">
+                  <!--piensa en grande piensa en ti-->
                     <!-- Titulo -->
                     <!-- <h2 class="main-banner-col__title ">Escuela en TIC</h2>                     -->
                     <!-- Logo -->
@@ -32,12 +33,12 @@
 
             <!-- Main y nav                 -->
 
-            <div class="container principal">
+            <div class="container principal fondo">
                 <div class="row">                    
                     <!-- Navegacion -->
-                    <nav class="col-lg-3 main-menu">
-                        
-                      <div class="accordion" id="accordionExample">
+                    <nav class="col-lg-3 col-md-3 main-menu">
+                        <div class="row">
+                      <div class="accordion col-sm-6 col-md-12" id="accordionExample">
                           <a class="btn main-menu__button main-menu__link" href="/">Inicio</a>
                           <a class="btn main-menu__button main-menu__link" href="/">Proyecto</a>
                           <a class="btn main-menu__button main-menu__link" href="/">Objetivos</a>
@@ -92,7 +93,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="externos">
+                      <div class="externos col-sm-5 col-md-12">
                           <p>
                               <a href="https://www.unicordoba.edu.co/" target="_blank">
                                 <img class="w-100" src="http://revistas.unicordoba.edu.co/public/site/images/ojsadminunicor/logo_unicordoba.png" alt="">
@@ -114,9 +115,10 @@
                             </a>                          
                           </p>                                                
                       </div>
+                    </div>
                     </nav>
                     <!-- main -->
-                    <main class=" main-main col-lg-9">
+                    <main class=" main-main col-lg-9 col-md-9">
                         <article id="" class=" main-main__article carousel slide" data-ride="carousel">
                           <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -171,13 +173,42 @@
                 </div>
             </div>
           
-          <footer class="main-footer container">
+          <footer class="main-footer container fondo">
             <div class="row">
-              <div class="col">
-                <small>Escuela en TIC</small>
+                <div class="col main-footer__container">
+                    <h2 class="main-footer__title">Escuela en TIC</h2>
+                    <address class="main-footer__data">                      
+                      <ul class="main-footer__list">                      
+                        <li class="main-footer__item">IE San Francisco de Assis</li>
+                        <li class="main-footer__item">Cordoba - Colombia</li>
+                        <li class="main-footer__item">San Bernardo del Viento</li>
+                      </ul>
+                    </address>
+                </div>
+              <div class="col main-footer__container">
+                  <h2 class="main-footer__title">Contactanos</h2>                  
+                  <div class="main-footer__data">
+                    <ul class="main-footer__list">                      
+                      <li class="main-footer__item">Luis Miguel Camaño Bruno</li>
+                      <li class="main-footer__item">Celular: 12334566</li>
+                      <li class="main-footer__item">Email: correo@dominio.com</li>
+                    </ul>                  
+                  </div>
               </div>
-            </div>
-      
+              <div class="col main-footer__container">
+                  <h2 class="main-footer__title">Contactanos</h2>                  
+                  <div class="main-footer__data">
+                    <ul class="main-footer__list">                      
+                      <li class="main-footer__item">Luis Miguel Camaño Bruno</li>
+                      <li class="main-footer__item">Celular: 12334566</li>
+                      <li class="main-footer__item">Email: correo@dominio.com</li>
+                    </ul>                  
+                  </div>
+              </div>
+              <!-- <div class="col-12">
+                  <small>© Escuela en TIC</small>
+              </div> -->
+            </div>      
           </footer>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
