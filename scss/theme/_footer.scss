@@ -11,14 +11,35 @@
     }
 
     &__data{
-        padding-left: 20px;
+        //padding-left: 20px;
+        position: relative;
     }
 
-    &__list{
+    &__list li{
         list-style: none;
         border-left: 1px solid hsla(60,67%,96%,.7);
         padding-left: 20px;
+    }    
+    
+    &__list::before{
+        font-size: 20px;        
+        color: hsla(60,67%,96%,.7);
+        font-family: "escuelaentic";        
+        padding-left: 10px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
+
+    &__col1::before{
+        content: "\63";            
+    }
+
+    &__col2::before{
+        content: "\67";            
+    }
+    
 
     &__title{
         font-size: 16px;
@@ -32,4 +53,46 @@
         font-size: 13px;
         color: hsla(60,67%,96%,.7);
     }
+}
+
+.sociales-footer a{
+    //padding: 10px;
+    margin: 0 .7em 0 0;
+    color: hsl(175, 60, 30);
+    text-decoration: none;
+
+    &::before{
+        padding: 7px;
+    //border: 1px solid red;    
+    background: hsla(60,67%,96%,.7);//#282d31;
+    border-radius: 50%;
+    opacity: .7;
+    display: inline-block;
+    transition: 500ms;
+    }
+   
+}
+
+.icon-footer:hover:before{
+    color:#fff;
+    opacity: 1;    
+    transform: scale(1.2);
+    padding: 9px;
+}
+
+
+.icon-youtube:hover:before{    
+    background: #ff0000;
+}
+
+.icon-facebook:hover:before{
+    background: #45619d;
+}
+
+.icon-twitter:hover:before{
+    background: #2daae2;
+}
+
+.icon-instagram:hover:before{
+    background: #e4435a;
 }
