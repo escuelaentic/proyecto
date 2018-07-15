@@ -1,10 +1,13 @@
 body{
     background: #f2f2f2;
+    //background: linear-gradient(to top, rgb(243, 209, 145),rgb(248, 248, 143), rgb(196, 196, 255)); 
+    
 }
 
 .container{
-    background: hsl(185, 40, 95);
-    background: linear-gradient(bottom, #FFFFFF 0, hsl(185, 40, 85) 100%) no-repeat;
+    background: #fff;
+    // background: hsl(185, 40, 95);
+    // background: linear-gradient(bottom, #FFFFFF 0, hsl(185, 40, 85) 100%) no-repeat;
     // background: hsl(185, 50, 50);
     //background: hsl(175, 50, 50); footer
 }

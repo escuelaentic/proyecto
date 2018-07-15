@@ -5,8 +5,14 @@
 .main-menu{
 
     padding: 0;
+    position: relative;
     // margin-left: 1px,
     //Sister
+
+    &__nav{
+        //margin-top: 150px;
+    }
+
     &__card{
         padding: 0;
         margin-bottom: 3px;
@@ -51,10 +57,9 @@
         font-size: 12px;
         //background: white;
     }
-
 }
 
-.card{//Ojo dale una clase a este
+.card-nav{//Ojo dale una clase a este
     border: none;
     background: linear-gradient(right, #FFFFFF 0, hsl(185, 40, 85) 200%) no-repeat;
     
@@ -68,3 +73,7 @@
 .externos p{
     padding-left: 5px;
 }
+
+
+
+
