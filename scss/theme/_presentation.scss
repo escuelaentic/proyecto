@@ -1,0 +1,83 @@
+.presentation{
+    width: 100%;
+    //height: 500px;
+    //clip-path: polygon(0 0,100% 0,100% 100%,0 94%);
+    clip-path: polygon(0% 10%, 100% 20%, 100% 100%, 0% 90%);
+    //opacity: .4;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;    
+    
+    &::before{
+        content: "";        
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        //background: #d3eaec;;
+        opacity: 0.4;
+    }
+
+    @media (min-width: 895px) {        
+        height: 500px;        
+    }
+
+    &-play__link{        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        //border: 1px solid #FFF;
+        //background: black;//#12124b;
+        //border-radius: 50%;        
+        transform: translate(-50%, -50%);
+        //opacity: .8;
+        //z-index: 10;        
+
+        &::before{
+            content: "\6a";
+            font-family: "escuelaentic";
+            //padding: 25px;
+            color: #fff;
+            opacity: .7;
+            font-size: 200px;
+            text-decoration: none;
+            transition: 500ms;
+        }
+
+        &:hover:before{
+            //transform: scale(1.2);
+            font-size: 220px;
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        &__title{
+            color: #003366;
+            opacity: 1;                    
+        }
+    }
+}
+
+.presentation-play:hover:before{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // border: 1px solid #000;
+    // background: #000;
+}
+
+.presentation2{
+    width: 100%;
+    height: 400px;
+    // background: rgb(233, 173, 173);
+    //clip-path: polygon(0 0,100% 0,100% 100%,0 94%);
+    clip-path: polygon(0% 10%, 100% 20%, 100% 80%, 0% 100%);
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;    
+    margin-top: -78px;
+}

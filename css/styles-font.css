@@ -65,3 +65,6 @@
 .icon-globe:before {
   content: "\63";
 }
+.icon-play-circle:before {
+  content: "\6a";
+}

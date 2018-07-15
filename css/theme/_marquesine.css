@@ -1,0 +1,17 @@
+.main-marquesine {
+  width: 100%;
+  height: 100px;
+  background: red; }
+  .main-marquesine__logo {
+    position: relative; }
+
+.main-marquesine__logo {
+  width: 100%; }
+
+.logo-absolute {
+  border-radius: 50%;
+  position: absolute;
+  top: -180px;
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 20px grey;
+  box-shadow: 1px 1px 20px grey; }
